@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Web.App.Frontend/1.0.0": {
+        "dependencies": {
+          "Web.App.Dominio": "1.0.0",
+          "Web.App.Persistencia": "1.0.0"
+        },
+        "runtime": {
+          "Web.App.Frontend.dll": {}
+        }
+      },
+      "Web.App.Dominio/1.0.0": {
+        "runtime": {
+          "Web.App.Dominio.dll": {}
+        }
+      },
+      "Web.App.Persistencia/1.0.0": {
+        "dependencies": {
+          "Web.App.Dominio": "1.0.0"
+        },
+        "runtime": {
+          "Web.App.Persistencia.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Web.App.Frontend/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Web.App.Dominio/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Web.App.Persistencia/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

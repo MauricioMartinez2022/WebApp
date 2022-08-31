@@ -1,0 +1,12 @@
+C:\Web\Web.App\Web.App.Dominio\bin\Debug\net6.0\Web.App.Dominio.deps.json
+C:\Web\Web.App\Web.App.Dominio\bin\Debug\net6.0\Web.App.Dominio.dll
+C:\Web\Web.App\Web.App.Dominio\bin\Debug\net6.0\Web.App.Dominio.pdb
+C:\Web\Web.App\Web.App.Dominio\obj\Debug\net6.0\Web.App.Dominio.csproj.AssemblyReference.cache
+C:\Web\Web.App\Web.App.Dominio\obj\Debug\net6.0\Web.App.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Web\Web.App\Web.App.Dominio\obj\Debug\net6.0\Web.App.Dominio.AssemblyInfoInputs.cache
+C:\Web\Web.App\Web.App.Dominio\obj\Debug\net6.0\Web.App.Dominio.AssemblyInfo.cs
+C:\Web\Web.App\Web.App.Dominio\obj\Debug\net6.0\Web.App.Dominio.csproj.CoreCompileInputs.cache
+C:\Web\Web.App\Web.App.Dominio\obj\Debug\net6.0\Web.App.Dominio.dll
+C:\Web\Web.App\Web.App.Dominio\obj\Debug\net6.0\refint\Web.App.Dominio.dll
+C:\Web\Web.App\Web.App.Dominio\obj\Debug\net6.0\Web.App.Dominio.pdb
+C:\Web\Web.App\Web.App.Dominio\obj\Debug\net6.0\ref\Web.App.Dominio.dll

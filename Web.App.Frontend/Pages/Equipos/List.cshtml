@@ -1,0 +1,18 @@
+﻿@page
+@model Web.App.Frontend.Pages.ListModel
+@{
+}
+
+<h1>Equipo Ciclo 3 MisiónTic</h1>
+<table class="table">
+    @foreach (var idioma in Model.Idiomas)
+    {
+        <tr>
+            <td>@idioma.Ingles</td>
+            <td>@idioma.Frances</td>
+            <td>@idioma.Portugues</td>
+        </tr>
+    }
+
+</table>
+

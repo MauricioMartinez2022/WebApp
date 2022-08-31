@@ -1,0 +1,121 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Web.App.Dominio/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Web.App.Dominio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Web.App.Dominio.dll": {}
+        }
+      },
+      "Web.App.Persistencia/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Web.App.Dominio": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Web.App.Persistencia.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Web.App.Persistencia.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Web.App.Dominio/1.0.0": {
+      "type": "project",
+      "path": "../Web.App.Dominio/Web.App.Dominio.csproj",
+      "msbuildProject": "../Web.App.Dominio/Web.App.Dominio.csproj"
+    },
+    "Web.App.Persistencia/1.0.0": {
+      "type": "project",
+      "path": "../Web.App.Persistencia/Web.App.Persistencia.csproj",
+      "msbuildProject": "../Web.App.Persistencia/Web.App.Persistencia.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Web.App.Dominio >= 1.0.0",
+      "Web.App.Persistencia >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Carlos Jose\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Web\\Web.App\\Web.App.Frontend\\Web.App.Frontend.csproj",
+      "projectName": "Web.App.Frontend",
+      "projectPath": "C:\\Web\\Web.App\\Web.App.Frontend\\Web.App.Frontend.csproj",
+      "packagesPath": "C:\\Users\\Carlos Jose\\.nuget\\packages\\",
+      "outputPath": "C:\\Web\\Web.App\\Web.App.Frontend\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Carlos Jose\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Web\\Web.App\\Web.App.Dominio\\Web.App.Dominio.csproj": {
+              "projectPath": "C:\\Web\\Web.App\\Web.App.Dominio\\Web.App.Dominio.csproj"
+            },
+            "C:\\Web\\Web.App\\Web.App.Persistencia\\Web.App.Persistencia.csproj": {
+              "projectPath": "C:\\Web\\Web.App\\Web.App.Persistencia\\Web.App.Persistencia.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
